@@ -1,4 +1,5 @@
 # Algorithm for QR Decomposition
+
 ## Aim:
 To implement QR decomposition algorithm using the Gram-Schmidt method.
 ## Equipment’s required:
@@ -28,7 +29,7 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 ''' 
 Program to QR decomposition using the Gram-Schmidt method
 Developed by: VARSHINI.S.A
-RegisterNumber: 
+RegisterNumber: 22009118
 '''
 import numpy as np
 def QR_Decomposition(A):
@@ -49,10 +50,6 @@ def QR_Decomposition(A):
     print(Q)
     print(R)
         
-    
-    
-    
-    
 a = np.array(eval(input()))
 QR_Decomposition(a)
 
